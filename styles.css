@@ -41,6 +41,8 @@ ul {
     font-weight: 900;
     align-self: baseline;
     margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
 }
 .main {
     font-size: 48px;
@@ -72,7 +74,20 @@ ul {
     width: 300px;
 }
 .reviews {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    padding: 100px 500px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+.name {
+    font-weight: bold;
+    align-self: flex-end;
 }
 .info-imgs {
     display: flex;
