@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding-top: 5px;
 }
 .top-bar {
     display: flex;
@@ -24,6 +25,8 @@ ul {
 .header-content {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .header-content-text {
     display: flex;
@@ -33,6 +36,11 @@ ul {
     display: flex;
     background-color: #3882f6;
     border: none;
+    color: #f9faf8;
+    justify-content: center;
+    font-weight: 900;
+    align-self: baseline;
+    margin-top: 5px;
 }
 .main {
     font-size: 48px;
