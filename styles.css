@@ -110,3 +110,22 @@ ul {
     text-align: center;
     margin: 20px;
 }
+.pre-orders-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.bold {
+    font-weight: bold;
+}
+.pre-orders {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 25px;
+}
+footer {
+    background-color: #1F2937;
+}
