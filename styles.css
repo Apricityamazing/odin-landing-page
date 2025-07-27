@@ -51,6 +51,10 @@ ul {
     font-size: 18px;
     color: #e5e7eb
 }
+.third {
+    font-size: 18px;
+    color: #5e5757;
+}
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -69,4 +73,25 @@ ul {
 }
 .reviews {
     background-color: #e5e7eb;
+}
+.info-imgs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}
+.info-img img {
+    width: 240px;
+    border-radius: 5px;
+    border: 3px solid #3882f6;
+}
+.info-img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 246px;
+}
+.info h1 {
+    text-align: center;
+    margin: 20px;
 }
