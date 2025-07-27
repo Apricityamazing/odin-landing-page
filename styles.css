@@ -23,6 +23,7 @@ ul {
 }
 .header-content {
     display: flex;
+    justify-content: space-between;
 }
 .header-content-text {
     display: flex;
