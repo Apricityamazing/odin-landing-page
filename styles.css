@@ -32,7 +32,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
-.header-button{
+.header-button, .preorder-button {
     display: flex;
     background-color: #3882f6;
     border: none;
@@ -114,18 +114,28 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 100px 0 100px 0;
 }
 .bold {
     font-weight: bold;
 }
 .pre-orders {
     display: flex;
+    box-sizing: border-box;
     background-color: #3882f6;
     color: #f9faf8;
+    gap: 15px;
     border-radius: 5px;
-    padding: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-footer {
+.preorder-button {
+    border: solid 2px #f9faf8;
+}
+.footer {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
